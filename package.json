@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-vue-app",
+  "version": "1.0.0",
+  "description": "Openclassrooms courses, learn to create fullstack Mongo, Express, Node ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Mongo",
+    "Express",
+    "Node"
+  ],
+  "author": "jsr029",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "mongoose-unique-validator": "^3.1.0"
+  }
+}
